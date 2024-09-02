@@ -132,3 +132,24 @@ span{
     font-size: 0.8rem;
     font-weight: 700;
 }
+
+
+.panel{
+    display: flex;
+    height: 39px;
+    background-color: #222f3d;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 10px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
