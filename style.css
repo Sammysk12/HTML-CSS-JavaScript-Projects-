@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:  border-box;
+}
+
+
+.navbar{
+    height: 60px;
+    width: auto;
+    background-color: #131921;;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+/* Box 1*/
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+
+    background-image: url(a.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid rgba(255, 255, 255, 0.841);
+}
+
+
+
+/* Box 2*/
+
+.add-1{
+    margin-left: 14px;
+    color: #CCCCCC;
+    font-size: 0.85rem;
+}
+
+.add-2{
+    margin-left: 2px;
+    color: #FFFFFF;
+}
+
+
+.del-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Box 3*/
+
+.nav-search{
+    
+    background-color: rgb(233, 150, 56);
+    display: flex;
+    width: 620px;
+    height: 36px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+
+.search-input{
+    width: 100%;
+    font-size:  1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.2rem;
+    color: #131921;
+    
+}
+
+/* Box 4*/
+
+.country{
+    width: 73px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* Box 5*/
+
+span{
+    font-size: 0.7rem;
+}
+
+.signin-2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 28px;
+}
+
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
